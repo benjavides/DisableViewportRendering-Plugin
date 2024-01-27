@@ -16,6 +16,8 @@ You can see an improvement in performance of around 20% by disabling the viewpor
 
 ### How to use?
 
+Copy the `DisableRendering` folder to your projects `Plugins` folder. If it doesn't exist, create it.
+
 I included a `BP_DisableEditorRendering` blueprint in the plugin's content folder that uses the function for the aforementioned use case. Drag that blueprint to your scene and set the properties in the Details Panel to your liking.
 
 ![image-20240126190830763](./assets/image-20240126190830763.png)
