@@ -4,6 +4,9 @@
 
 > Simple unreal plugin that exposes an engine function to blueprints to disable the rendering of the viewport.
 
+# :warning: **2025 UPDATE**​
+Since Unreal 5.5 it is possible to output the Viewport directly to NDI, thus avoiding rendering the scene 2 times. So the plugin doesn’t make much sense now. Here is a [sample project](https://drive.google.com/file/d/1-9fhddlgE8Qn5x_cEI-P6wR4CmEBXhnq/view?usp=drive_link) in Unreal 5.6.1 showing how to do it, it also shows how you would use the plugin with a `SceneCapture2D` without using third party plugins.
+
 
 
 ### Why would I want this?
@@ -32,4 +35,4 @@ This also stops the rendering of `SceneCapture2D` components, but you can manual
 
 
 
-Tested on Unreal 5.3.2
+Tested on Unreal 5.6.1
